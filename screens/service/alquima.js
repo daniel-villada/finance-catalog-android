@@ -30,6 +30,7 @@ const Alquima = ({ route, navigation }) => {
   const handleCotizarServicio = () => {
     const phoneNumber = '+525532647592'; 
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    Linking.openURL(whatsappUrl);
   };
 
   return (
