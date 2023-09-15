@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "G&C",
+    "slug": "financecatalog",
+    "owner": "gc-revista",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gc-revista.financecatalog",
+      "buildNumber": "1.0.1"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1891431f-8d17-4132-ada8-0fd629f6b468"
+      }
+    },
+    "android": {
+      "package": "com.gc.revista",
+      "versionCode": 2
+    }
+  }
+}
